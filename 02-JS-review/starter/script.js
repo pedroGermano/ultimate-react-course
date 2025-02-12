@@ -142,3 +142,7 @@ function getBooks() {
 function getBook(id) {
   return data.find((d) => d.id === id);
 }
+
+const books = getBook(2)
+const title = books.title
+console.log(title);
